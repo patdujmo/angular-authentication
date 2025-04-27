@@ -16,7 +16,7 @@ import { AuthConfig } from 'angular-oauth2-oidc';
     // and it might not enforce further best practices vital for security
     // such applications.
     // dummyClientSecret: 'secret',
-
+    //useSilentRefresh: true,
     responseType: 'code',
 
     // set the scope for the permissions the client should request

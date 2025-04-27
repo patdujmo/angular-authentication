@@ -39,11 +39,11 @@ export class AuthService {
     });
 
     // Optional: updates automatically the access token
-    this.oauthService.events
+    /*this.oauthService.events
       .pipe(filter((e) => e.type === 'token_expires'))
       .subscribe(() => {
         this.oauthService.silentRefresh();
-      });
+      });*/
   }
 
   login() {
