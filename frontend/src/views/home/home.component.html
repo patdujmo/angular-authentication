@@ -1,1 +1,8 @@
-<p>home works!</p>
+<div>
+  <h1>Home</h1>
+  <p>Willkommen, {{ authService.identityClaims?.preferred_username }}</p>
+  <nav>
+    <a routerLink="/dashboard">Zum Dashboard</a> |
+    <button (click)="logout()">Logout</button>
+  </nav>
+</div>
